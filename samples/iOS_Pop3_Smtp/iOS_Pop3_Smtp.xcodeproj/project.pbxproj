@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		129653091592F6EC000EFA6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 129653081592F6EC000EFA6A /* UIKit.framework */; };
+		1296530B1592F6EC000EFA6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296530A1592F6EC000EFA6A /* Foundation.framework */; };
+		1296530D1592F6EC000EFA6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296530C1592F6EC000EFA6A /* CoreGraphics.framework */; };
+		129653131592F6EC000EFA6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 129653111592F6EC000EFA6A /* InfoPlist.strings */; };
+		129653151592F6EC000EFA6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 129653141592F6EC000EFA6A /* main.m */; };
+		129653191592F6ED000EFA6A /* CAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 129653181592F6ED000EFA6A /* CAppDelegate.m */; };
+		1296531C1592F6ED000EFA6A /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1296531A1592F6ED000EFA6A /* MainStoryboard_iPhone.storyboard */; };
+		1296531F1592F6ED000EFA6A /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1296531D1592F6ED000EFA6A /* MainStoryboard_iPad.storyboard */; };
+		129653221592F6ED000EFA6A /* CViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 129653211592F6ED000EFA6A /* CViewController.mm */; };
+		129653351592F798000EFA6A /* Base64Codec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1296532D1592F798000EFA6A /* Base64Codec.cpp */; };
+		129653371592F798000EFA6A /* Pop3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 129653311592F798000EFA6A /* Pop3.cpp */; };
+		129653381592F798000EFA6A /* Smtp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 129653331592F798000EFA6A /* Smtp.cpp */; };
+		1296533E1592FBB2000EFA6A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1296533D1592FBB2000EFA6A /* CFNetwork.framework */; };
+		129653451592FCB6000EFA6A /* CFSocketByteStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 129653441592FCB6000EFA6A /* CFSocketByteStream.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		129653041592F6EC000EFA6A /* iOS_Pop3_Smtp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Pop3_Smtp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		129653081592F6EC000EFA6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1296530A1592F6EC000EFA6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1296530C1592F6EC000EFA6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		129653101592F6EC000EFA6A /* iOS_Pop3_Smtp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS_Pop3_Smtp-Info.plist"; sourceTree = "<group>"; };
+		129653121592F6EC000EFA6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		129653141592F6EC000EFA6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		129653161592F6EC000EFA6A /* iOS_Pop3_Smtp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS_Pop3_Smtp-Prefix.pch"; sourceTree = "<group>"; };
+		129653171592F6ED000EFA6A /* CAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAppDelegate.h; sourceTree = "<group>"; };
+		129653181592F6ED000EFA6A /* CAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAppDelegate.m; sourceTree = "<group>"; };
+		1296531B1592F6ED000EFA6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		1296531E1592F6ED000EFA6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		129653201592F6ED000EFA6A /* CViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CViewController.h; sourceTree = "<group>"; };
+		129653211592F6ED000EFA6A /* CViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CViewController.mm; sourceTree = "<group>"; };
+		1296532D1592F798000EFA6A /* Base64Codec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Base64Codec.cpp; path = ../../Base64Codec.cpp; sourceTree = "<group>"; };
+		1296532E1592F798000EFA6A /* Base64Codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Base64Codec.h; path = ../../Base64Codec.h; sourceTree = "<group>"; };
+		1296532F1592F798000EFA6A /* ByteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteStream.h; path = ../../ByteStream.h; sourceTree = "<group>"; };
+		129653311592F798000EFA6A /* Pop3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Pop3.cpp; path = ../../Pop3.cpp; sourceTree = "<group>"; };
+		129653321592F798000EFA6A /* Pop3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pop3.h; path = ../../Pop3.h; sourceTree = "<group>"; };
+		129653331592F798000EFA6A /* Smtp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Smtp.cpp; path = ../../Smtp.cpp; sourceTree = "<group>"; };
+		129653341592F798000EFA6A /* Smtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Smtp.h; path = ../../Smtp.h; sourceTree = "<group>"; };
+		1296533D1592FBB2000EFA6A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		129653431592FCB6000EFA6A /* CFSocketByteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSocketByteStream.h; sourceTree = "<group>"; };
+		129653441592FCB6000EFA6A /* CFSocketByteStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CFSocketByteStream.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		129653011592F6EC000EFA6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1296533E1592FBB2000EFA6A /* CFNetwork.framework in Frameworks */,
+				129653091592F6EC000EFA6A /* UIKit.framework in Frameworks */,
+				1296530B1592F6EC000EFA6A /* Foundation.framework in Frameworks */,
+				1296530D1592F6EC000EFA6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		129652F91592F6EC000EFA6A = {
+			isa = PBXGroup;
+			children = (
+				129653281592F703000EFA6A /* LPS */,
+				1296530E1592F6EC000EFA6A /* iOS_Pop3_Smtp */,
+				129653071592F6EC000EFA6A /* Frameworks */,
+				129653051592F6EC000EFA6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		129653051592F6EC000EFA6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				129653041592F6EC000EFA6A /* iOS_Pop3_Smtp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		129653071592F6EC000EFA6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1296533D1592FBB2000EFA6A /* CFNetwork.framework */,
+				129653081592F6EC000EFA6A /* UIKit.framework */,
+				1296530A1592F6EC000EFA6A /* Foundation.framework */,
+				1296530C1592F6EC000EFA6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1296530E1592F6EC000EFA6A /* iOS_Pop3_Smtp */ = {
+			isa = PBXGroup;
+			children = (
+				129653171592F6ED000EFA6A /* CAppDelegate.h */,
+				129653181592F6ED000EFA6A /* CAppDelegate.m */,
+				1296531A1592F6ED000EFA6A /* MainStoryboard_iPhone.storyboard */,
+				1296531D1592F6ED000EFA6A /* MainStoryboard_iPad.storyboard */,
+				129653201592F6ED000EFA6A /* CViewController.h */,
+				129653211592F6ED000EFA6A /* CViewController.mm */,
+				1296530F1592F6EC000EFA6A /* Supporting Files */,
+			);
+			path = iOS_Pop3_Smtp;
+			sourceTree = "<group>";
+		};
+		1296530F1592F6EC000EFA6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				129653101592F6EC000EFA6A /* iOS_Pop3_Smtp-Info.plist */,
+				129653111592F6EC000EFA6A /* InfoPlist.strings */,
+				129653141592F6EC000EFA6A /* main.m */,
+				129653161592F6EC000EFA6A /* iOS_Pop3_Smtp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		129653281592F703000EFA6A /* LPS */ = {
+			isa = PBXGroup;
+			children = (
+				129653421592FCB6000EFA6A /* Mac */,
+				1296532D1592F798000EFA6A /* Base64Codec.cpp */,
+				1296532E1592F798000EFA6A /* Base64Codec.h */,
+				1296532F1592F798000EFA6A /* ByteStream.h */,
+				129653311592F798000EFA6A /* Pop3.cpp */,
+				129653321592F798000EFA6A /* Pop3.h */,
+				129653331592F798000EFA6A /* Smtp.cpp */,
+				129653341592F798000EFA6A /* Smtp.h */,
+			);
+			name = LPS;
+			sourceTree = "<group>";
+		};
+		129653421592FCB6000EFA6A /* Mac */ = {
+			isa = PBXGroup;
+			children = (
+				129653431592FCB6000EFA6A /* CFSocketByteStream.h */,
+				129653441592FCB6000EFA6A /* CFSocketByteStream.mm */,
+			);
+			name = Mac;
+			path = ../../Mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		129653031592F6EC000EFA6A /* iOS_Pop3_Smtp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 129653251592F6ED000EFA6A /* Build configuration list for PBXNativeTarget "iOS_Pop3_Smtp" */;
+			buildPhases = (
+				129653001592F6EC000EFA6A /* Sources */,
+				129653011592F6EC000EFA6A /* Frameworks */,
+				129653021592F6EC000EFA6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS_Pop3_Smtp;
+			productName = iOS_Pop3_Smtp;
+			productReference = 129653041592F6EC000EFA6A /* iOS_Pop3_Smtp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		129652FB1592F6EC000EFA6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = C;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 129652FE1592F6EC000EFA6A /* Build configuration list for PBXProject "iOS_Pop3_Smtp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 129652F91592F6EC000EFA6A;
+			productRefGroup = 129653051592F6EC000EFA6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				129653031592F6EC000EFA6A /* iOS_Pop3_Smtp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		129653021592F6EC000EFA6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129653131592F6EC000EFA6A /* InfoPlist.strings in Resources */,
+				1296531C1592F6ED000EFA6A /* MainStoryboard_iPhone.storyboard in Resources */,
+				1296531F1592F6ED000EFA6A /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		129653001592F6EC000EFA6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				129653151592F6EC000EFA6A /* main.m in Sources */,
+				129653191592F6ED000EFA6A /* CAppDelegate.m in Sources */,
+				129653221592F6ED000EFA6A /* CViewController.mm in Sources */,
+				129653351592F798000EFA6A /* Base64Codec.cpp in Sources */,
+				129653371592F798000EFA6A /* Pop3.cpp in Sources */,
+				129653381592F798000EFA6A /* Smtp.cpp in Sources */,
+				129653451592FCB6000EFA6A /* CFSocketByteStream.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		129653111592F6EC000EFA6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				129653121592F6EC000EFA6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1296531A1592F6ED000EFA6A /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1296531B1592F6ED000EFA6A /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1296531D1592F6ED000EFA6A /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1296531E1592F6ED000EFA6A /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		129653231592F6ED000EFA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		129653241592F6ED000EFA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		129653261592F6ED000EFA6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_Pop3_Smtp/iOS_Pop3_Smtp-Prefix.pch";
+				INFOPLIST_FILE = "iOS_Pop3_Smtp/iOS_Pop3_Smtp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		129653271592F6ED000EFA6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS_Pop3_Smtp/iOS_Pop3_Smtp-Prefix.pch";
+				INFOPLIST_FILE = "iOS_Pop3_Smtp/iOS_Pop3_Smtp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		129652FE1592F6EC000EFA6A /* Build configuration list for PBXProject "iOS_Pop3_Smtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129653231592F6ED000EFA6A /* Debug */,
+				129653241592F6ED000EFA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		129653251592F6ED000EFA6A /* Build configuration list for PBXNativeTarget "iOS_Pop3_Smtp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				129653261592F6ED000EFA6A /* Debug */,
+				129653271592F6ED000EFA6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 129652FB1592F6EC000EFA6A /* Project object */;
+}
